@@ -16,7 +16,7 @@
   "scripts": {
     "pre-commit": "precise-commits",
     "fix": "eslint . --fix && prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "lint": "tsc --noEmit && eslint . && prettier --check .",
     "prepare": "husky install && tsc",
     "semantic-release": "semantic-release",
     "test": "ava"
