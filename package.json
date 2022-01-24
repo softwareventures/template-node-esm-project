@@ -3,16 +3,21 @@
   "name": "@softwareventures/template-node-project",
   "version": "0.0.0-development",
   "description": "Template for TypeScript node projects",
-  "keywords": ["template", "node", "TypeScript"],
+  "keywords": [
+    "template",
+    "node",
+    "TypeScript"
+  ],
   "author": "Daniel Cassidy <mail@danielcassidy.me.uk>",
   "homepage": "https://github.com/softwareventures/template-node-project",
   "bugs": "https://github.com/softwareventures/template-node-project/issues",
   "repository": "github:softwareventures/template-node-project",
   "license": "ISC",
   "scripts": {
+    "pre-commit": "precise-commits",
     "fix": "eslint . --fix && prettier --write .",
     "lint": "eslint . && prettier --check .",
-    "prepare": "tsc",
+    "prepare": "husky install && tsc",
     "semantic-release": "semantic-release",
     "test": "ava"
   },
@@ -24,12 +29,14 @@
   },
   "devDependencies": {
     "@softwareventures/eslint-config": "4.3.4",
+    "@softwareventures/precise-commits": "2.0.16",
     "@softwareventures/prettier-config": "2.0.0",
     "@softwareventures/semantic-release-config": "2.0.0",
     "@softwareventures/tsconfig": "5.1.0",
     "ava": "4.0.1",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.7.0",
+    "husky": "7.0.4",
     "prettier": "2.5.1",
     "semantic-release": "17.4.7",
     "ts-node": "10.4.0",
