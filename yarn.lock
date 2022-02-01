@@ -518,10 +518,10 @@
   dependencies:
     tslib "^1.9.3 || ^2.0.0 || ^2.1.0"
 
-"@softwareventures/precise-commits@2.0.16":
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.16.tgz#903b06a313b8ba225ea0caec9f20f68d55cf0dff"
-  integrity sha512-YYQJZ3USPOOY+AYAB9VzvGK/glKNz0n3S4jiMByw0EOHy9/ahcRdsrCfVmzKwddexfrjIvYcRJCtQHDPk34Z6Q==
+"@softwareventures/precise-commits@2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@softwareventures/precise-commits/-/precise-commits-2.0.17.tgz#84d679c6779c5bc1c2e97ea939ede6da6034fa11"
+  integrity sha512-hCIwsCC9AaksroVDosCiPi8a4fZO+/iCl5pzeEVxU+Im+uXUAESgGSZaso9bigIpIbeZTJVu3+/Vrp/HfthjoQ==
   dependencies:
     "@softwareventures/array" "5.0.0"
     execa "5.1.1"
