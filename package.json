@@ -13,6 +13,7 @@
   "bugs": "https://github.com/softwareventures/template-node-project/issues",
   "repository": "github:softwareventures/template-node-project",
   "license": "ISC",
+  "type": "module",
   "scripts": {
     "pre-commit": "precise-commits",
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
@@ -53,11 +54,11 @@
     }
   },
   "ava": {
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register/files"
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm"
     ]
   },
   "release": {
