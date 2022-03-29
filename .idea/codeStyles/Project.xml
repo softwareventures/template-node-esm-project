@@ -2,9 +2,11 @@
   <code_scheme name="Project" version="173">
     <JSCodeStyleSettings version="0">
       <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+      <option name="USE_EXPLICIT_JS_EXTENSION" value="TRUE" />
     </JSCodeStyleSettings>
     <TypeScriptCodeStyleSettings version="0">
       <option name="ENFORCE_TRAILING_COMMA" value="Remove" />
+      <option name="USE_EXPLICIT_JS_EXTENSION" value="TRUE" />
     </TypeScriptCodeStyleSettings>
     <codeStyleSettings language="JavaScript">
       <option name="IF_BRACE_FORCE" value="3" />
