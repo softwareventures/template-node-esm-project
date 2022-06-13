@@ -15,7 +15,6 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "pre-commit": "precise-commits",
     "commit": "cz",
     "fix": "tsc --noEmit && eslint . --fix && prettier --write .",
     "lint": "tsc --noEmit && eslint . && prettier --check .",
