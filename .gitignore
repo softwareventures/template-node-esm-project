@@ -15,6 +15,9 @@
 !/.yarn/versions
 yarn-error.log
 
+# tsimp
+/.tsimp
+
 # In case someone runs npm by accident
 package-lock.json
 npm-debug.log*
