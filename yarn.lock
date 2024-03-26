@@ -948,9 +948,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@softwareventures/precise-commits@npm:3.0.35":
-  version: 3.0.35
-  resolution: "@softwareventures/precise-commits@npm:3.0.35"
+"@softwareventures/precise-commits@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@softwareventures/precise-commits@npm:4.0.3"
   dependencies:
     "@softwareventures/array": "npm:6.1.0"
     "@softwareventures/nullable": "npm:3.2.0"
@@ -964,10 +964,10 @@ __metadata:
     tslib: "npm:2.6.2"
     unknown: "npm:0.2.5"
   peerDependencies:
-    prettier: ^1.8.0 || ^2.0.0
+    prettier: ^1.8.0 || ^2.0.0 || ^3.0.0
   bin:
     precise-commits: lib/cli.js
-  checksum: 10c0/f4e22bf8d05b24c0479d12c899b258a4a82c8e0e9b8b2d018ecb3e22c611072146712f5de6cd5ade54887bb6467406a5aeb16c5cb1305aeca67448e03d5f3cbb
+  checksum: 10c0/98b3f1770c46efd5ff85f96e6ba03464db283124c628b96ad3bf471bc9843e92b97443cff12f9fdd19963bee70c7f6d64c72a1d3aef75e67db0aa658b6f29a98
   languageName: node
   linkType: hard
 
@@ -1000,7 +1000,7 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.1.0"
     "@commitlint/cz-commitlint": "npm:19.2.0"
     "@softwareventures/eslint-config": "npm:7.4.0"
-    "@softwareventures/precise-commits": "npm:3.0.35"
+    "@softwareventures/precise-commits": "npm:4.0.3"
     "@softwareventures/prettier-config": "npm:4.0.0"
     "@softwareventures/semantic-release-config": "npm:4.0.0"
     "@softwareventures/tsconfig": "npm:7.1.0"
