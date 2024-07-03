@@ -1090,7 +1090,7 @@ __metadata:
     eslint-plugin-prefer-arrow: "npm:1.2.3"
     eslint-plugin-sonarjs: "npm:0.25.1"
     husky: "npm:9.0.11"
-    inquirer: "npm:9.3.2"
+    inquirer: "npm:9.3.3"
     pinst: "npm:3.0.0"
     prettier: "npm:3.3.2"
     semantic-release: "npm:23.1.1"
@@ -4185,9 +4185,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:9.3.2":
-  version: 9.3.2
-  resolution: "inquirer@npm:9.3.2"
+"inquirer@npm:9.3.3":
+  version: 9.3.3
+  resolution: "inquirer@npm:9.3.3"
   dependencies:
     "@inquirer/figures": "npm:^1.0.3"
     ansi-escapes: "npm:^4.3.2"
@@ -4201,7 +4201,7 @@ __metadata:
     strip-ansi: "npm:^6.0.1"
     wrap-ansi: "npm:^6.2.0"
     yoctocolors-cjs: "npm:^2.1.1"
-  checksum: 10c0/7e09361e102f98c2cfaebe6427250ad9ebfff018f48480f0f537ce039ac77fdc04093fb690c45ef3c246dc0b6afa6af437f1da10bd2899593403bcdbe7541580
+  checksum: 10c0/f8dc71cda454b18e6a9ba2b67be5501a98d28225687683fa4acd3dcccbcce3684527534172d29a40e797491924f5d1748d5a9aa6b72add8f18dd64cc09d745b7
   languageName: node
   linkType: hard
 
