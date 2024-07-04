@@ -1090,7 +1090,7 @@ __metadata:
     eslint-plugin-prefer-arrow: "npm:1.2.3"
     eslint-plugin-sonarjs: "npm:0.25.1"
     husky: "npm:9.0.11"
-    inquirer: "npm:9.3.3"
+    inquirer: "npm:9.3.4"
     pinst: "npm:3.0.0"
     prettier: "npm:3.3.2"
     semantic-release: "npm:23.1.1"
@@ -4185,9 +4185,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"inquirer@npm:9.3.3":
-  version: 9.3.3
-  resolution: "inquirer@npm:9.3.3"
+"inquirer@npm:9.3.4":
+  version: 9.3.4
+  resolution: "inquirer@npm:9.3.4"
   dependencies:
     "@inquirer/figures": "npm:^1.0.3"
     ansi-escapes: "npm:^4.3.2"
@@ -4200,8 +4200,8 @@ __metadata:
     string-width: "npm:^4.2.3"
     strip-ansi: "npm:^6.0.1"
     wrap-ansi: "npm:^6.2.0"
-    yoctocolors-cjs: "npm:^2.1.1"
-  checksum: 10c0/f8dc71cda454b18e6a9ba2b67be5501a98d28225687683fa4acd3dcccbcce3684527534172d29a40e797491924f5d1748d5a9aa6b72add8f18dd64cc09d745b7
+    yoctocolors-cjs: "npm:^2.1.2"
+  checksum: 10c0/a8ce2b60c65cecfd87fd4b1ae1ff538a7dccb38dca3ee2c437cec2ce5cf9a73cc794fa58d1bbc47ba637f198f428ee9dd5b6608d0c00333703c6baaade52f05d
   languageName: node
   linkType: hard
 
@@ -8134,10 +8134,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yoctocolors-cjs@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "yoctocolors-cjs@npm:2.1.1"
-  checksum: 10c0/e7e32c3d0a41e72251e274b34ebf9c371d26be1d351b41ba8feb407ce61e607e5178d1eaefeff7b5f1346a94a4ff4081cf276f2fd8388b432b7798d18800dd7f
+"yoctocolors-cjs@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "yoctocolors-cjs@npm:2.1.2"
+  checksum: 10c0/a0e36eb88fea2c7981eab22d1ba45e15d8d268626e6c4143305e2c1628fa17ebfaa40cd306161a8ce04c0a60ee0262058eab12567493d5eb1409780853454c6f
   languageName: node
   linkType: hard
 
