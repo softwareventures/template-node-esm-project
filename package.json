@@ -52,7 +52,7 @@
     "husky": "9.1.7",
     "inquirer": "9.3.8",
     "pinst": "3.0.0",
-    "prettier": "3.7.3",
+    "prettier": "3.7.4",
     "semantic-release": "23.1.1",
     "semantic-release-pinst": "1.0.4",
     "tsimp": "2.0.12",
